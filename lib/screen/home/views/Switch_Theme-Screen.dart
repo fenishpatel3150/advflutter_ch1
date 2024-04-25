@@ -33,7 +33,7 @@ class _switch_themeState extends State<switch_theme> {
             height: 100,
             width: 400,
             decoration: BoxDecoration(
-              color: Colors.black38,
+              color: Colors.black12,
               borderRadius: BorderRadius.all(Radius.circular(10))
             ),
             child: Center(child: Text('Dark Theme',style: TextStyle(fontSize: 25),)),
