@@ -1,18 +1,13 @@
 
-
-                                                             Chapter 1
-                                                        Dark Theme & White Theme
+## ADVANCE_FLUTTER_CHAPTER_1                                                        
 <p>
-
-  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/7f602ea3-139d-44fb-9937-28b0f70d109f" width=22% height=35%>
-  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/4a297542-a41f-4623-ba3f-df3d1f5e0934" width=22% height=35%>
+  <h1> 😎CHAPTER 1😎 </h1>
+<h5>==> Dark Theme & White Theme </h5>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/47055094-0dca-4793-b7d4-497a9945564d" width=22% height=35%>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/ffaad260-2557-43ed-86f6-276e7ee6cdc7" width=22% height=35%>
  
 
-
-
-https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/fe363d79-f80b-4fa9-8205-2b7aaae7bbc9
-
-
+https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/84e8aeea-eea2-48d0-a8b6-866849e48932
 
 
 </p>
