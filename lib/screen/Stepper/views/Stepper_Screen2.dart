@@ -48,18 +48,132 @@ class _Stepper_Screen2State extends State<Stepper_Screen2> {
             });
           },
           stepIconBuilder: (stepIndex, stepState) {
-            return CircleAvatar(
-              backgroundColor: Color(0xff6750a4),
-              child:Icon(Icons.done,size: 20,color: Colors.white,),
-            );
+            return Icon(Icons.done,size: 20,color: Colors.white,);
           },
 
           steps:
           [
-            Step(title: Text('Account'), content: TextField(decoration: InputDecoration(label: Text('Enter Your Account Number')),)),
-            Step(title: Text('Address'), content: TextField(decoration: InputDecoration(label: Text('Enter Your Address')),)),
-            Step(title: Text('Mobile Number'), content: TextField(decoration: InputDecoration(label: Text('Enter Your Mobile Number')),)),
-          ]),
+            Step(
+              isActive: Stepperglobalvalues.stepperindex>=0,
+                title: Text('Personal'), content: Column(
+                  children: [
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+                            
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter Your Email Account ')),),
+                    SizedBox(height: 20,),
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter Your Address')),),
+                    SizedBox(height: 20,),
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter Your Mobile Number')),),
+                  ],
+                )),
+            Step(
+              isActive: Stepperglobalvalues.stepperindex>=0,
+                title: Text('Contact'), content: Column(
+                  children: [
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter your Name  ')),),
+                    SizedBox(height: 20,),
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter Your SureName')),),
+                    SizedBox(height: 20,),
+                    TextField(
+                      decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4)
+                            )
+
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(
+                              color: Color(0xff6750a4),
+                            )
+                          ),
+                          label: Text('Enter Your Mobile Number')),),
+                  ],
+                )),
+            Step(
+              isActive: Stepperglobalvalues.stepperindex>=0,
+                title: Text('Upload'), content: Column(
+                  children: [
+                    Text('Uplod Successfully !👍',style: TextStyle(fontSize: 20),)
+                  ],
+                )),
+          ])
     );
+
   }
 }
