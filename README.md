@@ -1,19 +1,20 @@
 
-
-                                                             Chapter 1
-                                                        Dark Theme & White Theme
+## ADVANCE_FLUTTER_                                                       
 <p>
-
-  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/7f602ea3-139d-44fb-9937-28b0f70d109f" width=22% height=35%>
-  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/4a297542-a41f-4623-ba3f-df3d1f5e0934" width=22% height=35%>
- 
-
-
-
-https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/fe363d79-f80b-4fa9-8205-2b7aaae7bbc9
-
-
-
+  <h1 align="center"> 😎CHAPTER 1😎 </h1>
+<h2 align = "center"> 💥 Dark Theme & White Theme 💥 </h2>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/47055094-0dca-4793-b7d4-497a9945564d" width=22% height=35%>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/ffaad260-2557-43ed-86f6-276e7ee6cdc7" width=22% height=35%>
 
 </p>
 
+<p>
+<h2 align ="center"> 💥 Stepper App 💥 </h2>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/86e3f9ab-1588-401a-ba98-9b8d79e569cd" width=22% height=35%>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/c0fb92f2-d602-4901-aead-457393cd2c1c" width=22% height=35%>
+ </p>
+
+<p>
+<h2 align ="center" > 💥 Provider Diagram 💥 </h2>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/839c1616-16ee-4604-b247-f2b0aa477a29" width=22% height=35%>
+ </p>
