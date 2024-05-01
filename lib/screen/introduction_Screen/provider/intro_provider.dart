@@ -1,7 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class introprovider extends ChangeNotifier
+class Introprovider extends ChangeNotifier
 {
   bool click= false;
 
@@ -18,6 +18,11 @@ class introprovider extends ChangeNotifier
     SharedPreferences preferences= await SharedPreferences.getInstance();
     click = preferences.getBool('click') ?? false;
 
+  }
+
+  Introprovider()
+  {
+    getresponse();
   }
 
 }

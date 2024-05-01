@@ -69,7 +69,7 @@ class Intro_Screen extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 80),
+          SizedBox(height: 50),
           InkWell(
             onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(builder:(context) => intro_screen2(),));

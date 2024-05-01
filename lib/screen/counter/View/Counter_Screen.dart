@@ -1,3 +1,4 @@
+
 import 'package:advflutter_ch1/screen/counter/provider/Counter_Provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -14,11 +15,11 @@ class Counter_Screen extends StatelessWidget {
       ),
       body: Center(
         child:
-        Text(Provider.of<Counterprovider>(context,listen: true).count.toString(),style: TextStyle(color: Colors.black,fontSize: 25),),
+        Text(Provider.of<counterprovider>(context,listen: true).count.toString(),style: TextStyle(color: Colors.black,fontSize: 25),),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-        Provider.of<Counterprovider>(context,listen: false).counter();
+          Provider.of<counterprovider>(context,listen: false).counter();
         },
         child: Icon(Icons.add),
       ),

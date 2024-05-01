@@ -48,7 +48,7 @@ class intro_screen2 extends StatelessWidget {
             '     We provide best food to our \n customer healthy and organic ',
             style: GoogleFonts.lato(textStyle: TextStyle( fontWeight: FontWeight.bold,color: Colors.grey,fontSize: 18)),
           ),
-          SizedBox(height: 50,),
+          SizedBox(height: 30,),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -71,7 +71,7 @@ class intro_screen2 extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 80),
+          SizedBox(height: 50),
           InkWell(
             onTap: () {
 

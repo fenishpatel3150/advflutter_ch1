@@ -6,7 +6,10 @@ Row mode(BuildContext context) {
   return Row(
     children: [
       SizedBox(width: 10,),
-      Icon(Icons.sunny,color:Theme.of(context).colorScheme.secondary,),
+      Icon(Provider.of<Themeprovider>(context).dark
+          ? Icons.nightlight
+          : Icons.sunny,
+        color: Theme.of(context).colorScheme.primary,),
       SizedBox(width: 20,),
       Text('Light Mode',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w400),),
       Spacer(),
