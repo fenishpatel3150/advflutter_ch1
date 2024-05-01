@@ -1,6 +1,9 @@
 
 import 'package:advflutter_ch1/screen/Dark&WhiteThme/provider/Theme_Provider.dart';
 import 'package:advflutter_ch1/screen/Dark&WhiteThme/view/Theme_Screen.dart';
+import 'package:advflutter_ch1/screen/introduction_Screen/view/intro_1.dart';
+import 'package:advflutter_ch1/screen/introduction_Screen/view/intro_2.dart';
+import 'package:advflutter_ch1/screen/introduction_Screen/view/intro_3.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
           )
       ),
           themeMode: Provider.of<Themeprovider>(context,listen: true).dark ? ThemeMode.dark : ThemeMode.light,
-          home: Theme_Screen(),
+        home: Intro_Screen(),
     );
   }
 }

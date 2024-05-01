@@ -1,5 +1,6 @@
 
 import 'package:advflutter_ch1/screen/Dark&WhiteThme/provider/Theme_Provider.dart';
+import 'package:advflutter_ch1/screen/Dark&WhiteThme/view/commponets/main_mathod.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -25,21 +26,7 @@ class Theme_Screen extends StatelessWidget {
           SizedBox(height: 10,),
           Text('TestingUser',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),),
           SizedBox(height: 20,),
-          Row(
-            children: [
-              SizedBox(width: 10,),
-              Icon(Icons.sunny,color:Theme.of(context).colorScheme.secondary,),
-              SizedBox(width: 20,),
-              Text('Light Mode',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w400),),
-              Spacer(),
-              Switch(
-                value:Provider.of<Themeprovider>(context,listen: true).dark,
-                onChanged: (value)
-                {
-                Provider.of<Themeprovider>(context,listen: false).theme(value);
-              },)
-            ],
-          ),
+          mode(context),
           SizedBox(height: 20,),
           Row(
             children: [
@@ -81,4 +68,5 @@ class Theme_Screen extends StatelessWidget {
       ),
     );
   }
-}
+
+ }
