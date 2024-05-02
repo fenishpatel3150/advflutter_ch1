@@ -31,20 +31,16 @@
     <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/c2c58af9-2335-454b-9d10-6a7f31925735" width=22% height=35%>
  </p>
 
- <p>
+<p>
 <h2 align ="center" > 💥 Introduction Screen 💥 </h2>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/b5513141-632a-4c04-9fbe-0f815b90e9b5" width=22% height=35%>
    <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/87534c96-ccb0-4edf-9d72-6c6b91348e00" width=22% height=35%>
    <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/70f9c52f-8c21-46eb-802b-5cc3d52d5df9" width=22% height=35%>
-https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/a9a7f882-0461-4c18-9bd4-dbdda925ea72
- </p>
- 
- <p>
-<h2 align ="center" > 💥 Contact App 💥 </h2>
+   
+   <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/a9a7f882-0461-4c18-9bd4-dbdda925ea72"/></p>
+
+<p>
+  <h2 align ="center" > 💥 Contact App 💥 </h2>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/909e1bf4-a735-49b7-bdec-74881a866032" width=22% height=35%>
-   https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/8045334b-8549-4b52-a01c-06f557bff2e2
- </p>
-
-
-
- 
+  <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/8045334b-8549-4b52-a01c-06f557bff2e2"/>
+</p>
