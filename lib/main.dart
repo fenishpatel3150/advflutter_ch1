@@ -3,6 +3,7 @@
 import 'package:advflutter_ch1/screen/Dark&WhiteThme/provider/Theme_Provider.dart';
 import 'package:advflutter_ch1/screen/contact/view/contact_Screen.dart';
 import 'package:advflutter_ch1/screen/counter/provider/Counter_Provider.dart';
+import 'package:advflutter_ch1/screen/galleryapp/provider/galleryprovider.dart';
 import 'package:advflutter_ch1/screen/galleryapp/view/gallery_screen.dart';
 import 'package:advflutter_ch1/screen/introduction_Screen/provider/intro_provider.dart';
 import 'package:advflutter_ch1/screen/introduction_Screen/view/intro_1.dart';
@@ -15,9 +16,10 @@ void main()
 {
    runApp(
      MultiProvider(providers: [
-    ChangeNotifierProvider(create: (context) => Introprovider(),),
-    ChangeNotifierProvider(create: (context) => counterprovider(),),
-    ChangeNotifierProvider(create: (context) => Themeprovider(),),
+       ChangeNotifierProvider(create: (context) => Introprovider(),),
+       ChangeNotifierProvider(create: (context) => counterprovider(),),
+       ChangeNotifierProvider(create: (context) => Themeprovider(),),
+       ChangeNotifierProvider(create: (context) => galleryprovider(),),
   ],
   child: MyApp(),
   ));

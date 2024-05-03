@@ -1,4 +1,4 @@
-import 'package:advflutter_ch1/utlis/global/Stepper.dart';
+import 'package:advflutter_ch1/screen/Stepper/model/Stepper.dart';
 import 'package:flutter/material.dart';
 
 class Stepper_Screen extends StatefulWidget {
