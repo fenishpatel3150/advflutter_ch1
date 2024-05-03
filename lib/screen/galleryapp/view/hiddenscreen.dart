@@ -9,20 +9,62 @@ class Hiddenscreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('HiddenScreen'),),
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            GridView.builder(
-              scrollDirection: Axis.vertical,
-              itemCount: 6,
-              shrinkWrap: true,
-              physics: ScrollPhysics(),
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
-                mainAxisSpacing: 20,
-                crossAxisSpacing: 10,
-              ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,),
-        
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 10),
+                    child: Text('Pictures',style: TextStyle(fontSize: 20),),
+                  ),
+                  Spacer(),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 10),
+                    child: Text('Select',style: TextStyle(fontSize: 20,color: Colors.blue),),
+                  ),
+                ],
+              ),
+              SizedBox(height: 10,),
+              GridView.builder(
+                scrollDirection: Axis.vertical,
+                itemCount: 18,
+                shrinkWrap: true,
+                physics: ScrollPhysics(),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 5,
+                  mainAxisSpacing: 20,
+                  crossAxisSpacing: 10,
+                ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,),
+              SizedBox(height: 10,),
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(left: 10),
+                    child: Text('Pictures',style: TextStyle(fontSize: 20),),
+                  ),
+                  Spacer(),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 10),
+                    child: Text('Select',style: TextStyle(fontSize: 20,color: Colors.blue),),
+                  ),
+                ],
+              ),
+              SizedBox(height: 10,),
+              GridView.builder(
+                scrollDirection: Axis.vertical,
+                itemCount: 15,
+                shrinkWrap: true,
+                physics: ScrollPhysics(),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 5,
+                  mainAxisSpacing: 20,
+                  crossAxisSpacing: 10,
+                ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,),
+            ],
+          ),
         ),
       ),
     );

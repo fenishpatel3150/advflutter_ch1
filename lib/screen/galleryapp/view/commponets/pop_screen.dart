@@ -6,21 +6,16 @@ import 'package:provider/provider.dart';
 
 PopupMenuButton<dynamic> popmethod() {
     return PopupMenuButton(itemBuilder: (context) => [
-                PopupMenuItem(child:
-
-                Text('Hidde'),
-                  onTap: ()
-                 async {
-                    if(await Provider.of<galleryprovider>(context,listen: false).fingerprint())
-                      {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => Hiddenscreen(),));
-                      }
-
-                    },
-                ),
-                PopupMenuItem(child:
-                Text('Selected All'),
-                  onTap: () {},
-                )
-              ],);
+      PopupMenuItem(child:Text('Hide'),
+        onTap: () async {
+        if(await Provider.of<galleryprovider>(context,listen: false).fingerprint())
+        {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Hiddenscreen(),));
+        }},
+      ),
+      PopupMenuItem(child:
+      Text('Selected All'),
+        onTap: () {},
+      )
+    ],);
   }
