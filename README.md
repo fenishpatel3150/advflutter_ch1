@@ -6,7 +6,7 @@
 <h2 align = "center"> 💥 Dark Theme & White Theme 💥 </h2>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/47055094-0dca-4793-b7d4-497a9945564d" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/ffaad260-2557-43ed-86f6-276e7ee6cdc7" width=22% height=35%>
-
+  
 </p>
 
 <p>
@@ -37,10 +37,19 @@
    <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/87534c96-ccb0-4edf-9d72-6c6b91348e00" width=22% height=35%>
    <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/70f9c52f-8c21-46eb-802b-5cc3d52d5df9" width=22% height=35%>
    
-   <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/a9a7f882-0461-4c18-9bd4-dbdda925ea72"/></p>
+   <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/a9a7f882-0461-4c18-9bd4-dbdda925ea72"></video>
+   </p>
 
 <p>
   <h2 align ="center" > 💥 Contact App 💥 </h2>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/909e1bf4-a735-49b7-bdec-74881a866032" width=22% height=35%>
-  <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/8045334b-8549-4b52-a01c-06f557bff2e2"/>
+  <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/8045334b-8549-4b52-a01c-06f557bff2e2"></video>
+</p>
+    
+<p>
+  <h2 align ="center" > 💥 Gallery App 💥 </h2>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/85c0de0e-4f65-41d1-8604-55cd1148e47d" width=22% height=35%>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/9014d856-2ce1-4b63-ba6e-cc6e5911d67f" width=22% height=35%>
+  <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/e30fd706-efa9-401a-a77e-dfedf2d7ea86" width=22% height=35%>
+  <video src= "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/c335922b-7423-4735-aeb5-177a2cedc0a4"/>
 </p>
