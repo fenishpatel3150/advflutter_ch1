@@ -28,16 +28,7 @@ class Hiddenscreen extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 10,),
-              GridView.builder(
-                scrollDirection: Axis.vertical,
-                itemCount: 18,
-                shrinkWrap: true,
-                physics: ScrollPhysics(),
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 5,
-                  mainAxisSpacing: 20,
-                  crossAxisSpacing: 10,
-                ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,),
+              Pictures_grid(),
               SizedBox(height: 10,),
               Row(
                 children: [
@@ -53,21 +44,25 @@ class Hiddenscreen extends StatelessWidget {
                 ],
               ),
               SizedBox(height: 10,),
-              GridView.builder(
-                scrollDirection: Axis.vertical,
-                itemCount: 15,
-                shrinkWrap: true,
-                physics: ScrollPhysics(),
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 5,
-                  mainAxisSpacing: 20,
-                  crossAxisSpacing: 10,
-                ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,),
+              Pictures_grid(),
             ],
           ),
         ),
       ),
     );
+  }
+
+  GridView Pictures_grid() {
+    return GridView.builder(
+              scrollDirection: Axis.vertical,
+              itemCount: 15,
+              shrinkWrap: true,
+              physics: ScrollPhysics(),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 5,
+                mainAxisSpacing: 20,
+                crossAxisSpacing: 10,
+              ), itemBuilder: (context, index) =>image(profileimage[index]['image']) ,);
   }
   Container image(String i1) {
     return Container(
