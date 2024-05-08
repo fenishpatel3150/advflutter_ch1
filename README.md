@@ -47,7 +47,7 @@
 </p>
     
 <p>
-  <h2 align ="center" > 💥 Gallery App 💥 </h2>
+  <h2 align ="center" > Gallery App  </h2>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/85c0de0e-4f65-41d1-8604-55cd1148e47d" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/9014d856-2ce1-4b63-ba6e-cc6e5911d67f" width=22% height=35%>
   <img src = "https://github.com/fenishpatel3150/advflutter_ch1/assets/143187609/e30fd706-efa9-401a-a77e-dfedf2d7ea86" width=22% height=35%>
